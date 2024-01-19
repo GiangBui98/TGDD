@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thế giới di động</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    
+</head>
+  <body>
+    <header>
+        <img src="img/img1.webp" alt="Loading error...">
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href=""><img style="width: 150px;" src="img/logo.png" alt="Loading error..."></a></li>
+                <li id="address-form"><a href="#">Hồ Chí Minh<i class="fa-solid fa-caret-down"></i></a></li>               
+                <li><input type="text" placeholder="Bạn tìm gì..."><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li><a href=""></a><button>Tài khoản & <br> Đơn hàng</button></li>
+                <li><a href=""></a><button><i class="fa-solid fa-cart-shopping"></i>Giỏ hàng</button></li>
+                <li><a style="font-size: 14px" href="">24h <br> Công nghệ</a></li>
+                <li><a style="font-size: 14px" href="">Hỏi Đáp</a></li>
+                <li><a style="font-size: 14px" href="">Game App</a></li>
+                <div class="address-form">
+                    <div class="address-form-content">
+                        <div class="general-info">
+                            <p>Quý khách vui lòng cho biết <b>Địa Chỉ Nhận Hàng</b> để biết chính <br>xác thời gian giao hàng <span id="address-close">x Đóng</span></p>
+                            <div class="search-section">
+                                <i class="fa-solid fa-magnifying-glass"></i><input type="text" placeholder="Tìm nhanh tỉnh thành, quận huyện, phường xã">
+                            </div>
+                        </div>
+                            <h5>Hoặc chọn tỉnh, thành phố</h5>
+                        <div class="location-list">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Hồ Chí Minh</td>
+                                        <td>Hà Nội</td>   
+                                    </tr>
+                                    <tr>
+                                        <td>Đà Nẵng</td>
+                                        <td>An Giang</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bà Rịa - Vũng Tàu</td>
+                                        <td>Bắc Giang</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bắc Cạn</td>
+                                        <td>Bạc Liêu</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bắc Ninh</td>
+                                        <td>Bến Tre</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bình Định</td>
+                                        <td>Bình Dương</td>
+                                    </tr>
+    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>   
+                </div>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="menu-bar">
+        <div class="container">
+            <div class="menu-bar-content">
+                <ul>
+                    <li><a href=""><i class="fa-solid fa-mobile"></i>Điện thoại</a></li>
+                    <li><a href=""><i class="fa-solid fa-laptop"></i>Laptop</a></li>
+                    <li><a href=""><i class="fa-solid fa-tablet"></i>Tablet</a></li>
+                    <li><a href=""><i class="fa-solid fa-headphones"></i>Phụ kiện<i style="margin-left: 5px;" class="fa-solid fa-caret-down"></i></a>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="">Phụ kiện di động</a></li>
+                                <li><a href="">Sạc dự phòng</a></li>
+                                <li><a href="">Sạc, cáp</a></li>
+                                <li><a href="">Hub, cáp chuyển đổi</a></li>  
+                                <li><a href="">Thiết bị âm thanh</a></li>
+                                <li><a href="">Tai nghe Bluetooth</a></li>
+                                <li><a href="">Tai nghe dây</a></li>
+                                <li><a href="">Phụ kiện laptop</a></li>
+                                <li><a href="">Chuột máy tính</a></li>
+                                <li><a href="">Thiết bị nhà thông minh</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    
+                    <li><a href=""><i class="fa-solid fa-clock"></i>Smartwatch</a></li>
+                    <li><a href=""><i class="fa-regular fa-clock"></i>Đồng hồ</a></li>
+                    <li><a href=""><i class="fa-solid fa-mobile-screen-button"></i>Máy cũ, Thu cũ<i style="margin-left: 5px;" class="fa-solid fa-caret-down"></i></a>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="">Máy cũ giá rẻ</a></li>
+                                <li><a href="">Thu cũ đổi mới</a></li> 
+                            </ul>
+                        </div></li>
+                    <li><a href=""><i class="fa-solid fa-desktop"></i>PC, Máy in<i style="margin-left: 5px;" class="fa-solid fa-caret-down"></i></a>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="">Máy in</a></li>
+                                <li><a href="">Mực in</a></li>
+                                <li><a href="">Màn hình máy tính</a></li>    
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="">Sim, Thẻ Cào</a></li>
+                    <li><a href="">Dịch vụ tiện ích<i style="margin-left: 5px;" class="fa-solid fa-caret-down"></i></a>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href=""> Thanh toán hóa đơn</a></li>
+                                <li><a href="">Đóng tiền trả góp</a></li>
+                                <li><a href="">Đóng tiền điện</a></li>    
+                            </ul>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+<!-- banner -->
+<section class="banner">
+    <a href=""><img src="img/banner2.png" alt="Loading error..."></a>
+</section>
+
+<!-- Slider -->
+<section class="slider">
+    <div class="container">
+        <div class="slider-content-container">
+            <div class="slider-content">
+                <a href=""><img src="img/slider1.webp" alt="Loading error..."></a>
+                <a href=""><img src="img/slider2.webp" alt="Loading error..."></a>
+                <a href=""><img src="img/slider3.webp" alt="Loading error..."></a>
+                <a href=""><img src="img/slider5.webp" alt="Loading error..."></a>
+            </div>
+            <div class="slider-content-navigation-button">
+                <i class="fa fa-chevron-circle-left"></i>
+                <i class="fa fa-chevron-circle-right"></i>
+            </div>
+        </div>       
+    </div>
+</section>
+
+<!-- <section class="banner-one">
+    <div class="container">
+        <img src="img/" alt="">
+    </div>
+</section> -->
+
+<section class="slider-product-one">
+    <div class="container">
+         <div class="slider-product-one-content-tile">
+            <h2>Săn Sale Oneline Mỗi Ngày</h2>
+         </div>
+         <div class="slider-product-one-content-items">
+            <div class="slider-product-one-content-item">
+                <img src="img/bannerone1.webp" alt="">
+                <div class="slider-product-one-content-item-text">
+                <li><img src="img/icone1.webp" alt="">Hot Sale</li>
+                <li>Samsung Galaxy</li>
+                <li>Online giá rẻ</li>
+                <li>30.990.000<sup>đ</sup></li>
+                <li>10.990.000<sup>đ</sup></li>
+                <li>Quà<sup>đ</sup></li>
+                <li>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </li>
+            </div>
+            </div>
+        
+            <div class="slider-product-one-content-item">
+                <img src="img/bannerone2.webp" alt="">
+                <div class="slider-product-one-content-item-text">
+                <li><img src="img/icone1.webp" alt="">Hot Sale</li>
+                <li>Smart watch</li>
+                <li>Online giá rẻ</li>
+                <li>30.990.000<sup>đ</sup></li>
+                <li>10.990.000<sup>đ</sup></li>
+                <li>Quà<sup>đ</sup></li>
+                <li>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    
+                </li>
+            </div>
+            </div>
+
+            <div class="slider-product-one-content-item">
+                <img src="img/bannerone3.webp" alt="">
+                <div class="slider-product-one-content-item-text">
+                <li><img src="img/icone1.webp" alt="">Hot Sale</li>
+                <li>Imou</li>
+                <li>Online giá rẻ</li>
+                <li>30.990.000<sup>đ</sup></li>
+                <li>10.990.000<sup>đ</sup></li>
+                <li>Quà<sup>đ</sup></li>
+                <li>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </li>
+            </div>
+            </div>
+
+            <div class="slider-product-one-content-item">
+                <img src="img/bannerone4.webp" alt="">
+                <div class="slider-product-one-content-item-text">
+                <li><img src="img/icone1.webp" alt="">Hot Sale</li>
+                <li>Luxury Watch</li>
+                <li>Online giá rẻ</li>
+                <li>30.990.000<sup>đ</sup></li>
+                <li>10.990.000<sup>đ</sup></li>
+                <li>Quà<sup>đ</sup></li>
+                <li>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </li>
+            </div>
+            </div>
+
+            <div class="slider-product-one-content-item">
+                <img src="img/bannerone5.webp" alt="">
+                <div class="slider-product-one-content-item-text">
+                <li><img src="img/icone1.webp" alt="">Hot Sale</li>
+                <li>Digital Ưatch</li>
+                <li>Online giá rẻ</li>
+                <li>30.990.000<sup>đ</sup></li>
+                <li>10.990.000<sup>đ</sup></li>
+                <li>Quà<sup>đ</sup></li>
+                <li>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </li>
+            </div>
+            </div>
+         </div>
+    </div>
+</section>
+
+<section class="slider-product-two">
+    <div class="container">
+         <div class="slider-product-one-content-tile">
+            <h2>Tuần Lễ Sale Hấp Dẫn</h2>
+         </div>
+         <div class="slider-product-one-content-items">
+            <div class="slider-product-one-content-item">
+                <img src="img/bannerone1.webp" alt="">
+                <div class="slider-product-one-content-item-text">
+                <li><img src="img/icone1.webp" alt="">Hot Sale</li>
+                <li>Samsung Galaxy</li>
+                <li>Online giá rẻ</li>
+                <li>30.990.000<sup>đ</sup></li>
+                <li>10.990.000<sup>đ</sup></li>
+                <li>Quà<sup>đ</sup></li>
+                <li>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </li>
+            </div>
+            </div>
+        
+            <div class="slider-product-one-content-item">
+                <img src="img/bannerone2.webp" alt="">
+                <div class="slider-product-one-content-item-text">
+                <li><img src="img/icone1.webp" alt="">Hot Sale</li>
+                <li>Smart watch</li>
+                <li>Online giá rẻ</li>
+                <li>30.990.000<sup>đ</sup></li>
+                <li>10.990.000<sup>đ</sup></li>
+                <li>Quà<sup>đ</sup></li>
+                <li>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </li>
+            </div>
+            </div>
+
+            <div class="slider-product-one-content-item">
+                <img src="img/bannerone3.webp" alt="">
+                <div class="slider-product-one-content-item-text">
+                <li><img src="img/icone1.webp" alt="">Hot Sale</li>
+                <li>Imou</li>
+                <li>Online giá rẻ</li>
+                <li>30.990.000<sup>đ</sup></li>
+                <li>10.990.000<sup>đ</sup></li>
+                <li>Quà<sup>đ</sup></li>
+                <li>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </li>
+            </div>
+            </div>
+
+            <div class="slider-product-one-content-item">
+                <img src="img/bannerone4.webp" alt="">
+                <div class="slider-product-one-content-item-text">
+                <li><img src="img/icone1.webp" alt="">Hot Sale</li>
+                <li>Luxury Watch</li>
+                <li>Online giá rẻ</li>
+                <li>30.990.000<sup>đ</sup></li>
+                <li>10.990.000<sup>đ</sup></li>
+                <li>Quà<sup>đ</sup></li>
+                <li>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </li>
+            </div>
+            </div>
+
+            <div class="slider-product-one-content-item">
+                <img src="img/bannerone5.webp" alt="">
+                <div class="slider-product-one-content-item-text">
+                <li><img src="img/icone1.webp" alt="">Hot Sale</li>
+                <li>Digital Ưatch</li>
+                <li>Online giá rẻ</li>
+                <li>30.990.000<sup>đ</sup></li>
+                <li>10.990.000<sup>đ</sup></li>
+                <li>Quà<sup>đ</sup></li>
+                <li>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </li>
+            </div>
+            </div>
+         </div>
+    </div>
+</section>
+    <script src="script/scripts.js"></script>    
+  </body>
+</html>
